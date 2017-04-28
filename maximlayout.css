@@ -1,0 +1,135 @@
+body {
+    margin: 0px;
+}
+
+.logo {
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+    color: white;
+    margin-left: 15px;
+    padding-top: 10px;
+}
+
+.navbar-buttons {
+    margin-top: 12px;
+}
+
+.footer-container {
+    width: 100%;
+    height: 30px;
+    background-color: #0071c5;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+}
+
+.footer-note {
+    padding-top: 8px;
+}
+.nav-button {
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.nav-button:hover {
+    transition: 0.2s;
+    color: #c6e7ff;}
+
+.nav-container {
+    min-height: 50px;
+    width: 100%;
+    position: fixed;
+    background-color: #0071c5;
+    opacity: 0.95;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.1);
+    z-index: 1;
+}
+
+.stories {
+    z-index: 0;
+    padding-top: 50px;
+}
+
+.content {
+    width: 100%;
+    position: relative;
+    background: #e3e7ed;
+    overflow: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.content-2 {
+    width: 100%;
+    position: relative;
+    background: #e3e7ed;
+    overflow: auto;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.main-page-image {
+    float: left;
+    width: 50%;
+    height: 45%;
+    max-width: 700px;
+    max-height: 600px;
+    vertical-align: top;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+
+#page-image:hover{
+    transition: 0.3s;
+    box-shadow: 0 17px 50px 0 rgba(0, 0, 0, 0.19)    
+}
+
+.main-page-image2 {
+    float: right;
+    width: 40%;
+    height: 40%;
+    max-width: 700px;
+    max-height: 600px;
+    vertical-align: top;
+    margin-right: 10px;
+}
+
+.section-content {
+    font-size: 25px;
+    margin-left: 10px;
+    position: inline;
+}
+
+.container{
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+
+@media screen and (max-width:580px) {
+.nav-logo {
+    display: table;
+    margin: 0 auto;  
+}
+
+.navbar-buttons {
+    display: table;
+    margin: 0 auto;
+}
+
+#about-us {
+    margin-left: 0;
+}
+
+.nav-container {
+    height: 65px;
+}
+
+.stories {
+    padding-top: 65px;
+}
+}
